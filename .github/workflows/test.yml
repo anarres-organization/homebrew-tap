@@ -26,8 +26,6 @@ jobs:
           cask: false
       - name: Check formula style
         run: brew style Formula/anarres.rb
-      - name: Register local tap
-        run: brew tap anarres-organization/tap "$GITHUB_WORKSPACE"
       - name: Audit formula
         run: brew audit --strict anarres-organization/tap/anarres
       - name: Install and test formula
