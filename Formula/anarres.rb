@@ -1,25 +1,25 @@
 class Anarres < Formula
   desc "Native command-line interface for Anarres environment workflows"
   homepage "https://github.com/anarres-organization/anarres"
-  version "0.3.0"
+  version "0.3.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/anarres-organization/anarres/releases/download/anarres-cli-v0.3.0/anarres-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "c197d19980d8592e059cffa342b5cbae279916d0a8a8ecaeb59d42c75776f8c2"
+      url "https://github.com/anarres-organization/anarres/releases/download/anarres-cli-v0.3.1/anarres-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "df31884530def84ed8ce3ed899559a08ddcdd3862f63f2b9a018e592521e8e96"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/anarres-organization/anarres/releases/download/anarres-cli-v0.3.0/anarres-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "c3eaf2022159475489a7e1f10f866b687843cb01cf053fc70c4b56d93fe9d077"
+      url "https://github.com/anarres-organization/anarres/releases/download/anarres-cli-v0.3.1/anarres-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "979751d1141723842dcdce5d6aa12cb66e1705993942907da2d43a1fc50970f7"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/anarres-organization/anarres/releases/download/anarres-cli-v0.3.0/anarres-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "da32679b415e99fb55bce9c57408adb20313ef598fd279d0009cc0683c70b0af"
+      url "https://github.com/anarres-organization/anarres/releases/download/anarres-cli-v0.3.1/anarres-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "d9d35c1b28310bcbab037ed99f0bf859b3bc6f1761337920a9342e47880c77e9"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/anarres-organization/anarres/releases/download/anarres-cli-v0.3.0/anarres-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "a28ccc8053913e157dfc2b2e08f524d3044679d6e61e43d9d879df60b20c104d"
+      url "https://github.com/anarres-organization/anarres/releases/download/anarres-cli-v0.3.1/anarres-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "8feb5020000162bd2e1bb1255034666b52d9c4a873ebfb1273d0afdc5a50f114"
     end
   end
   license "Apache-2.0"
